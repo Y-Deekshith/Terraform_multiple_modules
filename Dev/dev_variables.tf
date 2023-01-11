@@ -56,4 +56,5 @@ module "dev_alb" {
   name                    = module.dev_vpc.name
   env                     = module.dev_vpc.vpc_env
   vpc_id                  = module.dev_vpc.vpc_id
+  instance                = module.dev_ec2.instance
 }
