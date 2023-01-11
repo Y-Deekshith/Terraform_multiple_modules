@@ -1,0 +1,9 @@
+variable "instancetype" {}
+variable "ami" {}
+variable "key_name" {}
+variable "name" {}
+variable "publicsubnet_cidr_block" {}
+variable "security_group" {}
+variable "env" {}
+variable "privatesubnet_cidr_block" {}
+variable "private_ec2_depends_on" {}
